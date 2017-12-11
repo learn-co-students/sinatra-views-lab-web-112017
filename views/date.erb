@@ -1,0 +1,17 @@
+<html>
+<head>
+</head>
+
+<body>
+  <%day = Time.now.strftime("%A")%>
+  <%day_n = Time.now.day%>
+  <%month = Time.now.strftime("%B")%>
+  <%year = Time.now.strftime("%Y")%>
+  <h1>Today</h1>
+  <p>The date is Wednesday, November 18, 2015</p>
+  <p>The date is <%=day%>, <%=month%> <%=day_n%>, <%=year%></p>
+</body>
+
+</html>
+
+<%=%>
