@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+
+  <body>
+    <% d = DateTime.now %>
+    <h1><%= d.strftime("%A, %B %d, %Y") %></h1>
+
+  </body>
+</html>
+
+
+<!-- d = DateTime.now
+d.strftime("%d/%m/%Y %H:%M")
+#=> "11/06/2017 18:11"
+d.next_month.strftime("%d/%m/%Y %H:%M")
+#=> "11/07/2017 18:11" -->
+
+
+<!-- Create a template called date.erb in views that gets rendered via GET /date. It should contain an h1 with the content Today
+Using ERB tags, and the DateTime library, display today's date in a p tag. The date should be formatted to look something like this The date is Wednesday, November 18, 2015. -->
